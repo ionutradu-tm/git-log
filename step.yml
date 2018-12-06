@@ -1,0 +1,24 @@
+name: git-log
+version: 0.0.0
+summary: Adds a tag to a given commit
+keywords:
+  - tag
+  - tags
+  - commit
+  - version
+properties:
+  - name: message
+    type: string
+    required: true
+  - name: repository
+    type: string
+    required: true
+  - name: branch
+    type: string
+    required: true
+  - name: commmit
+    type: string
+    required: true
+  - name: user
+    type: string
+    required: true
